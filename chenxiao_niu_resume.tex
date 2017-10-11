@@ -1,0 +1,200 @@
+%-------------------------
+% Resume in Latex
+% Author : ChenxiaoNiu
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}  
+  \textbf{\href{https://ncxinhanzhong.wixsite.com/niucx}{\Large Chenxiao Niu}} & Email : \href{niuc@mcmaster.ca}{niuc@mcmaster.ca}\\
+  \href{https://ncxinhanzhong.wixsite.com/niucx}{https://ncxinhanzhong.wixsite.com/niucx} & Mobile : (+1)905-923-6358 \\
+\end{tabular*}
+
+%----------QUALIFICATIONS----------------
+\section{Qualifications}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Software and Web Development}
+      {Proficient in Software and Web Development, take part in practical project.}
+    \resumeSubItem{Machine Learning}
+      {Major in Machine Learning and skillful at modelling the algorithm.}
+    \resumeSubItem{Code Management}
+      {Good at Code Management and contribute to University Greeting Website.}
+    \resumeSubItem{Problem Solving}
+      {Good at raising problems and solving problems in projects.}
+  \resumeSubHeadingListEnd
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {McMaster University}{Hamilton, Canada}
+      {Master of Science in Electrical \& Computer Engineering;  Current GPA: 4.00}{Sep. 2017 -- Present}
+    \resumeSubheading
+      {Beijing University of Posts and Telecommunications}{Beijing, China}
+      {Bachelor of Electronic Information Engineering;  Overall GPA: 3.66 (9.15/10.0)}{Sep. 2013 -- Jun. 2017}
+  \resumeSubHeadingListEnd
+  
+  
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+  
+    %% ======= Website and Github management ========
+      \resumeSubheading
+      	{Greeting Website}{Github, HTML}
+	{Git, HTML, CSS, JS}{Sep 2017 - Present}
+	\resumeItemListStart
+	  \resumeItem{Github Management}
+	  {Manage the website's branch every two days using git.}
+	  \resumeItem{Website Update}
+	  {Modify and Update the contents of the Website by using rst and html.}
+	  \resumeItem{Issues Management}
+	  {Publish the issues of the website, assign and deal with the issues.}
+	\resumeItemListEnd
+	
+   %% =========== Android Development ============
+	\resumeSubheading
+	  {Android Development}{Android}
+	  {Java Development}{Sep 2017 - Oct 2017}
+	  \resumeItemListStart
+	    \resumeItem{NTD}
+	    {NTD}
+	    \resumeItem{NTD}
+	    {NTD}
+	    \resumeItem{NTD}
+	    {NTD}
+	  \resumeItemListEnd
+    
+   %% ======== Facial Expression Recognition System======   
+   \resumeSubheading
+      {Facial Expression Recognition System}{MATLAB}
+      {Machine Learning}{Feb 2017 - Jun 2017}
+      \resumeItemListStart
+         \resumeItem{Gabor-Wavelet}
+          {Detected and Captured the face by using Gabor-Wavelet algorithm.}
+      	\resumeItem{Data Preprocessing}
+	 {Generalized and Normalized the JAFFE Database, extracted the features of the images using LBP, PCA and DCT algorithms.}    
+        \resumeItem{Neural Network}
+          {Constructed and trained a neural network in MATLAB, gained a 90\% accuracy of the test set.}
+      \resumeItemListEnd	      
+
+  
+  %% ================= Web Spider ==============
+  \resumeSubheading
+  	{Web Spider}{Python}
+	{Big Data, Data Analysis}{Mar 2016 - Apr 2016}
+	\resumeItemListStart
+		\resumeItem{Scrapy}
+		{Set up and maintain a web spider by using Scrapy, which aims at ZhiHu(the biggest question-and-answer website in China) to find out the relationship between users.}
+		\resumeItem{Social Network}
+		{Acquired and analyzed thousand-level user data using Pajek, and find out who is the most subscribed people and the link between them.}
+	\resumeItemListEnd
+\resumeSubHeadingListEnd  
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    %% =========== BMW Internship ==========
+    \resumeSubheading
+      {BMW China}{Beijing, China}
+      {IT Intern}{Aug 2016 - Jan 2017}
+      \resumeItemListStart
+        \resumeItem{Greeting Robot}
+          {Designed and Built a greeting robot used in the yearly BMW IT Roadshow, which has functionalities of NLP, Figure Detection as well as recommending car models to the guests.}
+        \resumeItem{Scrum}
+          {Imported Scrum workflow to the team, adjusted the conventional standard and formulated a customized regulation.}
+         \resumeItem{Video Editing}
+         {Edited a video for the team to compete the worldwide IT Fair of BMW Group, and won the first place with a 50,000\$ award.} 
+      \resumeItemListEnd
+%
+%    %% =========== Student Union ==========
+%    \resumeSubheading
+%      {Lucena Research}{Atlanta, GA}
+%      {Data Scientist}{Summer 2012 and 2013}
+%      \resumeItemListStart
+%        \resumeItem{Portfolio Management}
+%          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
+%        \resumeItem{QuantDesk}
+%          {Python backend for a web application used by hedge fund managers for portfolio management.}
+%      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%--------SKILLS AND HONORS------------
+\section{Skills \& Courses}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Skills}{: Java, Python, C++, Git, TensorFlow, MATLAB, HTML, CSS and JavaScript}
+      \item
+      \textbf{Courses}{: Machine Learning by Andrew Ng on Coursera; Programming Mobile Applications for Android Handheld Systems by U of Maryland on Coursera}
+    }
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
